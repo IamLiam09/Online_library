@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Strawford';
+    src: url('StrawfordLight.eot');
+    src: url('StrawfordLight.eot?#iefix') format('embedded-opentype'),
+        url('StrawfordLight.woff2') format('woff2'),
+        url('StrawfordLight.woff') format('woff'),
+        url('StrawfordLight.ttf') format('truetype'),
+        url('StrawfordLight.svg#StrawfordLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Strawford';
+    src: url('StrawfordRegular.eot');
+    src: url('StrawfordRegular.eot?#iefix') format('embedded-opentype'),
+        url('StrawfordRegular.woff2') format('woff2'),
+        url('StrawfordRegular.woff') format('woff'),
+        url('StrawfordRegular.ttf') format('truetype'),
+        url('StrawfordRegular.svg#StrawfordRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Strawford';
+    src: url('StrawfordMedium.eot');
+    src: url('StrawfordMedium.eot?#iefix') format('embedded-opentype'),
+        url('StrawfordMedium.woff2') format('woff2'),
+        url('StrawfordMedium.woff') format('woff'),
+        url('StrawfordMedium.ttf') format('truetype'),
+        url('StrawfordMedium.svg#StrawfordMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Strawford';
+    src: url('StrawfordBlack.eot');
+    src: url('StrawfordBlack.eot?#iefix') format('embedded-opentype'),
+        url('StrawfordBlack.woff2') format('woff2'),
+        url('StrawfordBlack.woff') format('woff'),
+        url('StrawfordBlack.ttf') format('truetype'),
+        url('StrawfordBlack.svg#StrawfordBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Strawford';
+    src: url('StrawfordBold.eot');
+    src: url('StrawfordBold.eot?#iefix') format('embedded-opentype'),
+        url('StrawfordBold.woff2') format('woff2'),
+        url('StrawfordBold.woff') format('woff'),
+        url('StrawfordBold.ttf') format('truetype'),
+        url('StrawfordBold.svg#StrawfordBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

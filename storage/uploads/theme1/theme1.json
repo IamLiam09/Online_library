@@ -1,0 +1,265 @@
+[
+  {
+    "section_name": "Home-Header",
+    "section_slug": "homepage-header",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+      {
+        "field_name": "Offer Text",
+        "field_slug": "homepage-header-offer-text",
+        "field_help_text": "Please add text here",
+        "field_default_text": "Special offer",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Offer description",
+        "field_slug": "homepage-header-offer-description",
+        "field_help_text": "Please add description here",
+        "field_default_text": "The Data Science Course 2021: Complete Data Science Bootcamp $490.00",
+        "field_type": "text area"
+      },
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-header-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "Knowledge from <b> +300 categories </b> in one place.",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Sub Title",
+        "field_slug": "homepage-header-sub-title",
+        "field_help_text": "Please add sub title text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+      },
+      {
+        "field_name": "Thumbnail Image",
+        "field_slug": "homepage-header-thumbnail",
+        "field_help_text": "",
+        "field_default_text": "theme1/header/MaleRunning1.png",
+        "field_type": "photo upload"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Header",
+    "section_slug": "homepage-header",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "2",
+    "inner-list": [
+      {
+        "field_name": "Thumbnail Inner Box Title",
+        "field_slug": "homepage-thumbnail-innerbox-1-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "+30",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Thumbnail Inner Box Sub Text",
+        "field_slug": "homepage-thumbnail-innerbox-1-sub-text",
+        "field_help_text": "Please add sub text here",
+        "field_default_text": "Math courses",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Featured Course",
+    "section_slug": "homepage-featured-course",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-featured-course-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "Featured Course",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-featured-course-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show more",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Categories",
+    "section_slug": "homepage-categories",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+      {
+        "field_name": "Tag",
+        "field_slug": "homepage-categories-tag",
+        "field_help_text": "Please add text here",
+        "field_default_text": "Categories",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-categories-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "Knowledge from <b> +300 categories </b>  in one place. ",
+        "field_type": "text area"
+      },
+      {
+        "field_name": "Description",
+        "field_slug": "homepage-categories-description",
+        "field_help_text": "Please add description here",
+        "field_default_text": "There is only that moment and the incredible certainty that everything under the sun has been written by one hand only..",
+        "field_type": "text area"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-categories-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Learn More",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-On Sale",
+    "section_slug": "homepage-on-sale",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-on-sale-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "On Sale",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-on-sale-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show More",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Email-subscriber",
+    "section_slug": "homepage-email-subscriber",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "",
+    "inner-list": [
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-email-subscriber-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "Always on time",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Sub Text",
+        "field_slug": "homepage-email-subscriber-sub-text",
+        "field_help_text": "Please add text here",
+        "field_default_text": "Subscription here",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Display Email Subscriber Box",
+        "field_slug": "homepage-email-subscriber-display",
+        "field_help_text": "",
+        "field_default_text": "on",
+        "field_type": "checkbox"
+      },
+      {
+        "field_name": "Bottom Text",
+        "field_slug": "homepage-email-subscriber-bottom-text",
+        "field_help_text": "Please add text here",
+        "field_default_text": "We will never spam to you. Only useful info.",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-email-subscriber-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "SUBSCRIBE",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Thumbnail",
+        "field_slug": "homepage-email-subscriber-thumbnail",
+        "field_help_text": "",
+        "field_default_text": "theme1/email/newsletter.png",
+        "field_type": "photo upload"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Footer",
+    "section_slug": "homepage-footer",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "",
+    "inner-list": [
+      {
+        "field_name": "Footer Logo",
+        "field_slug": "homepage-footer-logo",
+        "field_help_text": "",
+        "field_default_text": "theme1/footer/lmsgo-logo.svg",
+        "field_type": "photo upload"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Footer",
+    "section_slug": "homepage-footer",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "3",
+    "inner-list": [
+      {
+        "field_name": "Footer Quick Link Name",
+        "field_slug": "homepage-footer-quick-link-name",
+        "field_help_text": "Please add link name here",
+        "field_default_text": "Blog",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Footer Quick Link ",
+        "field_slug": "homepage-footer-quick-link",
+        "field_help_text": "Please add link here",
+        "field_default_text": "#",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Footer",
+    "section_slug": "homepage-footer",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "6",
+    "inner-list": [
+      {
+        "field_name": "Social Link Icon",
+        "field_slug": "homepage-footer-social-icon",
+        "field_help_text": "Please click here to find font... fontawesome.com",
+        "field_default_text": "<i class='fab fa-youtube'></i>",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Social Link",
+        "field_slug": "homepage-footer-social-link",
+        "field_help_text": "Please add social link here",
+        "field_default_text": "https://www.youtube.com/",
+        "field_type": "text"
+      }
+    ]
+  }
+]

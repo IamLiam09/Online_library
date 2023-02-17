@@ -1,0 +1,215 @@
+[
+  {
+    "section_name": "Home-Header",
+    "section_slug": "homepage-header",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-header-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "Improve Your Skills with <br> ModernCourse.",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Offer description",
+        "field_slug": "homepage-header-offer-description",
+        "field_help_text": "Please add description here",
+        "field_default_text": "All courses from $490.00",
+        "field_type": "text area"
+      },
+      {
+        "field_name": "Sub Title",
+        "field_slug": "homepage-header-sub-title",
+        "field_help_text": "Please add sub title text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-header-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show More Courses",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Featured Course",
+    "section_slug": "homepage-featured-course",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-featured-course-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "Featured Course",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-featured-course-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show more",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Categories",
+    "section_slug": "homepage-categories",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-categories-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "Categories",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Description",
+        "field_slug": "homepage-categories-description",
+        "field_help_text": "Please add description here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "field_type": "text area"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-categories-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Find More Categories",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-On Sale",
+    "section_slug": "homepage-on-sale",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "1",
+    "inner-list": [
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-on-sale-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "On Sale",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-on-sale-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Show More",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Email-subscriber",
+    "section_slug": "homepage-email-subscriber",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "",
+    "inner-list": [
+      {
+        "field_name": "Title",
+        "field_slug": "homepage-email-subscriber-title",
+        "field_help_text": "Please add title here",
+        "field_default_text": "Improve Your Skills with ModernCourse",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Sub Text",
+        "field_slug": "homepage-email-subscriber-sub-text",
+        "field_help_text": "Please add text here",
+        "field_default_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+        "field_type": "text area"
+      },
+      {
+        "field_name": "Button",
+        "field_slug": "homepage-email-subscriber-button",
+        "field_help_text": "Please add button text here",
+        "field_default_text": "Subscribe",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Thumbnail",
+        "field_slug": "homepage-email-subscriber-thumbnail",
+        "field_help_text": "",
+        "field_default_text": "theme4/email/side-image-1.png",
+        "field_type": "photo upload"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Footer",
+    "section_slug": "homepage-footer",
+    "section_enable": "on",
+    "array_type": "inner-list",
+    "loop_number": "",
+    "inner-list": [
+      {
+        "field_name": "Footer Logo",
+        "field_slug": "homepage-footer-logo",
+        "field_help_text": "",
+        "field_default_text": "theme4/footer/lmsgo-logo.png",
+        "field_type": "photo upload"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Footer",
+    "section_slug": "homepage-footer",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "3",
+    "inner-list": [
+      {
+        "field_name": "Footer Quick Link Name",
+        "field_slug": "homepage-footer-quick-link-name",
+        "field_help_text": "Please add link name here",
+        "field_default_text": "Blog",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Footer Quick Link ",
+        "field_slug": "homepage-footer-quick-link",
+        "field_help_text": "Please add link here",
+        "field_default_text": "#",
+        "field_type": "text"
+      }
+    ]
+  },
+  {
+    "section_name": "Home-Footer",
+    "section_slug": "homepage-footer",
+    "section_enable": "on",
+    "array_type": "multi-inner-list",
+    "loop_number": "6",
+    "inner-list": [
+      {
+        "field_name": "Social Link Icon",
+        "field_slug": "homepage-footer-social-icon",
+        "field_help_text": "Please click here to find font... fontawesome.com",
+        "field_default_text": "<i class='fab fa-youtube'></i>",
+        "field_type": "text"
+      },
+      {
+        "field_name": "Social Link",
+        "field_slug": "homepage-footer-social-link",
+        "field_help_text": "Please add social link here",
+        "field_default_text": "https://www.youtube.com/",
+        "field_type": "text"
+      }
+    ]
+  }
+  
+]

@@ -1,0 +1,179 @@
+.tab-content > .tab-pane {
+    display: none
+}
+
+.tab-content > .active {
+    display: block
+}
+@keyframes hidePreloader {
+    0% {
+        width: 100%;
+        height: 100%;
+    }
+
+    100% {
+        width: 0;
+        height: 0;
+    }
+}
+.c-pointer{
+    cursor: pointer;
+}
+body > div.preloader {
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 100%;
+    z-index: 1071;
+    opacity: 0;
+    transition: opacity .5s ease;
+    overflow: hidden;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body:not(.loaded) > div.preloader {
+    opacity: 1;
+}
+
+body:not(.loaded) {
+    overflow: hidden;
+}
+
+body.loaded > div.preloader {
+    animation: hidePreloader .5s linear .5s forwards;
+}
+
+.myimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider-vertical{
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid white;
+}
+/**/
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+.rateing_section {
+    overflow: scroll;
+}
+/*  */
+@media (min-width: 1200px){
+    .tab-student{
+        width:745px !important;
+    }
+}
+@media (max-width: 1100px){
+
+}
+@media (max-width: 991px){
+    .tab-student{
+        width:600px !important;
+    }
+    .filter-card{
+        display: none !important;
+    }
+    .filter-btn{
+        display: block !important;
+    }
+}
+@media (max-width: 650px){
+    .tab-student{
+        width:500px !important;
+    }
+}
+@media (max-width: 490px){
+    .tab-student{
+        width:420px !important;
+    }
+}
+@media (max-width: 380px){
+    .tab-student{
+        width:350px !important;
+    }
+}
+@media (max-width: 330px){
+    .tab-student{
+        width:310px !important;
+    }
+}
+/* FULLSCREEN */
+.gray {
+    color: gray;
+}
+.topic:hover{
+    background-color: #eaecf3 !important;
+}
+
+li.nav-item i {
+    color: #6f5fa7;
+}
+.alert-notify {
+    display: flex !important;
+    max-width: 400px;
+    width: auto;
+    padding-right: 80px;
+    box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
+}
+
+a.create_link {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+

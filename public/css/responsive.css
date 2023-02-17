@@ -1,0 +1,553 @@
+/*================================================================================================*/
+/*=================[                                                            ]=================*/
+/*=================[    !!!!!!!!   CSS CREATED BY RAJODIYA INFOTECH  !!!!!!!!   ]=================*/
+/*=================[                                                            ]=================*/
+/*================================================================================================*/
+
+@media (min-width:992px) {
+    .header-style-one .main-navigationbar .menu-items-col .main-nav{
+      display: flex;
+      align-items: center;
+    } 
+    .desk-only {
+      display: block !important;
+    }
+    .mobile-only {
+      display: none !important;
+    }  
+   
+}   
+
+@media screen and (max-width:1360px){
+  .outer-arrow .slick-prev{
+    left: 0;
+  }
+  .outer-arrow .slick-next{
+    right: 0;
+  }
+}
+@media screen and (max-width:1260px){   
+  .report-box{
+    padding: 15px 15px;
+  }
+  .main-home-first-section .report-box.courses-reports{
+    left: 0;
+  }
+  .main-home-first-section .maths-courses.report-box{
+    right: 10%;
+    top: 0;
+  }
+  .banner-image{
+    display: none;
+  }
+  .course-widget-inner .course-bottom .course-detail p{
+    font-size: 12px;
+  }
+  .header-style-one .main-navigationbar .menu-items-col .main-nav {
+    padding: 0 30px;
+}
+
+}
+@media screen and (max-width:1199px){
+  :root { 
+    --h1: normal 700 40px/1 var(--second-font);
+    --h2: normal 700 32px/1 var(--second-font);
+    --h3: normal 700 26px/1 var(--second-font); 
+    --h4: normal 700 20px/1 var(--second-font);
+    --h5: normal 700 18px/1 var(--second-font);
+    --h6: normal 700 16px/1 var(--second-font);
+  } 
+  .pdp-summery-bottom{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pdp-summery-bottom .price{
+    margin-bottom: 20px;
+  }
+  .chapter-head-content .chapter-head-block{
+    width: 50%;
+    max-width: 50%;
+  }
+  .header-style-one .main-navigationbar .menu-items-col .main-nav {
+    padding: 0 15px;
+}
+  
+}
+@media screen and (max-width:991px){
+  :root { 
+    --h1: normal 700 36px/1 var(--second-font); 
+    --common-text: normal 400 14px/1.4 var(--first-font);
+  } 
+  .header-style-one .logo-col{
+    max-width: 150px;
+  }
+  .header-style-one .main-navigationbar .menu-items-col .main-nav{
+    display: none;
+  }
+
+  .header-style-one .menu-right{
+    flex: 1;
+    position: relative;
+  }
+  .header-style-one .main-navigationbar .menu-right>li:hover .menu-dropdown{
+    right: 0;
+  }
+  .main-home-first-section{
+    padding-top: 120px;
+  }
+  .main-home-first-section .report-box.courses-reports{
+    top: -20px;
+    left: 0;
+    transform: rotate(28deg);
+  }
+  .main-home-first-section .maths-courses.report-box{
+    top: -60px;
+    right: 10px;
+    transform: rotate(33deg);
+  }
+ 
+  .scroll-down{
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .newsletter-right-side{
+    display: none;
+  }
+  .newsletter-section {
+    margin-top: 0;
+}
+.header-style-one .mobile-menu{
+  display: inline-block;
+}
+.footer-row .footer-col:not(:first-of-type) {
+  padding-left: 45px;
+}
+.pdp-right-side{
+  margin-top: 50px;
+}
+
+.chapter-head-content .chapter-head-block {
+  width: 50%;
+}
+.chapter-head-content .chapter-head-block.pagination {
+  width: 100%;
+  max-width: 100%;
+}
+.chapter-head-block.course-progress{
+  max-width: 100%;
+  width: 100%;
+}
+
+
+.chapter-title.chapter-head-block{
+  text-align: right;
+}
+
+.tutor-featured-course .featured-courses{
+  margin-top: 50px;
+}
+
+
+.filter-title div {
+  max-width: 40px;
+  width: 100%;
+  border: 1px solid var(--theme-color);
+  padding: 2px;
+  display: block;
+}
+.filter-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.filter-title h4{
+  margin-left: 15px;
+}
+
+.product-filter-column .product-filter-body{
+  position: fixed;
+  top: 0;
+  background: var(--white);
+  left: 0;
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  overflow:auto;
+  transition: all ease-in-out 0.5s;
+  -webkit-transform: translate(-100%, 0px);
+  -moz-transform: translate(100%, 0px);
+  -ms-transform: translate(100%, 0px);
+  -o-transform: translate(100%, 0px);
+  transform: translate(-100%, 0px);
+  padding: 40px 0;
+}
+
+.filter-open .product-filter-body  {
+  -moz-transform: translate(0);
+  -o-transform: translate(0);
+  -ms-transform: translate(0);
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  box-shadow: 0px 4px 55px rgb(24 58 64 / 12%);
+}
+.close-filter {
+  position: absolute;
+  top: 0;
+  background: var(--theme-color);
+  height: 30px;
+  width: 30px;
+  padding: 7px;
+  right: 0;
+  cursor: pointer;
+}
+.close-filter svg {
+  height: 100%;
+  width: 100%;
+}
+.product-widget>.pro-itm {
+  border: 0;
+}
+.cart-summery {
+  margin-top: 30px;
+}
+
+.checkout-right-side{
+  margin-top: 50px;
+}
+
+
+}
+@media screen and (max-width:767px){
+  .header-style-one .logo-col {
+    max-width: 120px;
+}
+  .header-style-one .menu-right li:not(:last-of-type) {
+    margin-right: 10px;
+}
+.header-style-one .menu-right>li.search-header a, .header-style-one .menu-right>li.wishlist-header a, .header-style-one .menu-right>li.cart-header a{
+  width: 30px;
+  height: 30px;
+}
+.header-style-one .menu-right li a svg{
+  width: 15px;
+  height: 15px;
+}
+.header-style-one .menu-right .profile-header,
+.header-style-one .menu-right .language-header{
+display: none;
+}
+.header-style-one .mobile-menu-bottom{
+  display: block;
+  width: 100%;
+  padding-bottom: 15px;
+  position: relative;
+  padding-top: 15px;
+}
+.header-style-one .main-navigationbar .menu-right>li {
+  padding: 15px 0;
+}
+.main-home-first-section {
+  padding-top: 50px;
+}
+.header-style-one .mobile-menu-bottom ul .profile-header .menu-dropdown{
+left: 0;
+right: auto;
+}
+.header-style-one .mobile-menu-bottom .menu-dropdown{
+min-width: unset;
+}
+.footer-row .footer-col {
+  flex: 0 0 100%;
+  padding: 0;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.footer-row .footer-col:not(:first-of-type) {
+  padding-left: 0;
+}
+.footer-widget .share-links {
+  justify-content: center;
+}
+.footer-link-1 .footer-widget ul{
+  flex-direction: column;
+  align-items: flex-start;
+} 
+.footer-row .footer-col.footer-logo{
+  max-width: 200px;
+  width: 100%;
+}
+.footer-link-1 .footer-widget ul li:not(:last-of-type) {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+.footer-bottom{
+  padding-top: 0;
+  text-align: center;
+}
+.newsletter-form .input-wrapper{
+  flex-wrap: wrap;
+}
+.newsletter-form  .input-wrapper .btn {
+  margin-left: 0;
+  margin-top: 15px;
+}
+.newsletter-content-wrap{
+  padding: 20px 20px;
+}
+.section-title {
+  margin-bottom: 26px;
+}
+.newsletter-form {
+  margin-top: 26px;
+}
+.padding-bottom {
+  padding-bottom: 40px;
+}
+.padding-top {
+  padding-top: 40px;
+}
+.section-title .left-side {
+  flex: 100%;
+  margin-bottom: 26px;
+}
+.section-title .right-side {
+  flex: 100%;
+}
+.knowledge-section{
+  margin-bottom: 140px;
+}
+.main-home-first-section .banner-image-left{
+  display: none;
+}
+.main-home-first-section .report-box.courses-reports,
+.main-home-first-section .maths-courses.report-box{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform:unset;
+  -webkit-transform:unset;
+  -moz-transform:unset;
+  -ms-transform:unset;
+  -o-transform:unset;
+}
+.report-box{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.main-home-first-section .banner-left-side{
+  padding-right: 15px;
+  margin-top: 30px;
+}
+.common-banner-section{
+  padding: 40px 0;
+}
+.header-style-one .mobile-menu{
+  margin: 0 0 0 10px;
+}
+.header-style-one .main-navigationbar .menu-right>li.cart-header{
+margin-right: 0;
+}
+.pdp-tabs{
+  padding: 15px 15px 0;
+  margin-bottom: 25px;
+}
+.pdp-tabs .tabs li {
+  margin-bottom: 15px;
+}
+.tabs li:not(:last-of-type) {
+  margin-right: 15px;
+}
+.tabs li a svg{
+  margin-right: 10px;
+}
+.set{
+  margin-bottom: 15px;
+}
+.chapter-head-content .chapter-head-block {
+  width: 100%;
+  max-width: 100%;
+}
+.chapter-title.chapter-head-block {
+  text-align: left;
+}
+.chapter-head{
+  margin-bottom: 40px;
+}
+.tutor-info-wrap li:not(:last-of-type){
+  margin-bottom: 15px;
+}
+.featured-courses .course-list .course-media{
+  width: 100%;
+}
+.featured-courses .course-list .course-caption{
+  width: 100%;
+  padding: 17px;
+}
+.featured-courses .course-list .course-widget-inner .course-media a{
+  padding-top: 55%;
+}
+.tutor-featured-course .featured-courses{
+  border: 0;
+  margin-top: 40px;
+}
+.box-title{
+  padding: 0;
+  border: 0;
+  margin-bottom: 26px;
+}
+.featured-courses .course-list {
+  padding: 0;
+}
+.product-search-bar{
+  margin-top: -40px;
+}
+
+.cart-item-inner{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.cart-item-inner .product-image{
+  max-width: 100%;
+}
+
+.cart-item-inner .product-image a{
+  max-width: 250px;
+  width: 100%;
+  margin: auto;
+}
+.product-cart-summry{
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.product-cart-summry .name{
+  flex: 100%;
+  margin-bottom: 15px;
+  padding: 0 15px 15px;
+  border-bottom: 1px solid #DADADA;
+}
+.product-cart-summry>div:not(:first-of-type) {
+  padding-right: 15px;
+}
+
+.filter-title div{
+  max-width: 30px;
+}
+.payment-method-form .upload-btn-wrapper{
+margin-bottom: 15px;
+}
+.home-banner-content {
+  max-width: 100%;
+}
+
+
+}
+@media screen and (max-width:575px){  
+  :root {  
+    --h2: normal 700 28px/1 var(--second-font);
+    --h3: normal 700 24px/1 var(--second-font); 
+    --h4: normal 700 22px/1 var(--second-font);
+    --h5: normal 700 20px/1 var(--second-font);
+  } 
+  .section-title .btn{
+    margin-top: 15px;
+  }
+  .section-title{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .product-review{
+    margin-top: 25px;
+  }
+  .product-review ul{
+    padding: 10px;
+  }
+  .product-review ul li svg{
+    margin-right: 10px;
+  }
+  .product-review ul li:not(:last-of-type){
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .chapter-pagination ul{
+    justify-content: flex-start;
+  }
+  .user-profile .user-image {
+    width: 80px;
+}
+.user-profile .user-info-main h2{
+font-size: 20px;
+}
+.tutor-info-wrap ul{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tutor-info-wrap li{
+  width: 100%;
+  text-align: left;
+}
+
+.tutor-info-wrap .review-rating {
+  justify-content: flex-start;
+}
+.chapter-head-content .chapter-head-block.pagination{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chapter-head-content .chapter-head-block .download-btn .btn{
+  margin-bottom: 15px;
+}
+.price-addtocart .add-cart{
+  margin-top: 10px;
+}
+.header-style-one .logo-col {
+  max-width: 100px;
+}
+} 
+@media screen and (max-width:420px){  
+  .pdp-summery .badge{
+    margin-bottom: 10px;
+  }
+  .user-profile .user-info-main {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  .flex-input-wrap {
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    .product-search-bar form .btn{
+    margin: 15px 0 0;
+    height: 44px;
+    }
+    .course-widget-inner .course-bottom .course-detail{
+     justify-content: flex-start;
+    }
+    .offer-desk{
+      flex: 100%;
+      width: 100%;
+      padding-left: 0;
+      margin-top: 15px;
+    }
+   
+}
+@media screen and (max-width:320px){  
+  .payment-image{
+    flex: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+  .payment-image img{
+    max-width: 40px;
+  }
+}
